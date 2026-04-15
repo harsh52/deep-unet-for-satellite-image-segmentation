@@ -1,16 +1,25 @@
-# IP-Academic-Project-on-Segmentaion-of-Sattellite-image-using-NDVI-on-Tkinter
+# Deep U-Net for Satellite Image Segmentation
 
+Deep U-Net architecture for satellite image segmentation — land cover classification from multi-band imagery.
 
-<img src="https://img.icons8.com/plasticine/100/000000/youtube.png"/>
+![Segmentation Demo](https://github.com/harsh52/deep-unet-for-satellite-image-segmentation/blob/master/visualization/satelliteseg.gif?raw=true)
 
-[Youtube video Link](https://www.youtube.com/watch?v=rm_g3GeNGMQ)
+## What It Does
 
-## In short 
-<img src="https://github.com/Boltuzamaki/deep-unet-for-satellite-image-segmentation/blob/master/visualization/satelliteseg.gif" width="600" height="400" />
+Segments satellite images into land cover classes (vegetation, water, urban, etc.) using a U-Net convolutional neural network. Includes a Tkinter GUI for interactive prediction.
 
-### Tkinter Application screenshot
+## How to Run
 
-<img src="https://github.com/Boltuzamaki/deep-unet-for-satellite-image-segmentation/blob/master/visualization/Screenshot%20(6625).png" width="600" height="400" />
+```bash
+pip install -r requirements.txt
+python train_unet.py        # Train the model
+python predict_UI.py        # Launch the GUI for predictions
+```
 
-<img src="https://github.com/Boltuzamaki/deep-unet-for-satellite-image-segmentation/blob/master/visualization/Screenshot%20(6626).png" width="600" height="400" />
+## Tech
 
+Python, TensorFlow/Keras, U-Net architecture, Tkinter, GDAL for raster processing
+
+## Screenshots
+
+![Tkinter App](https://github.com/harsh52/deep-unet-for-satellite-image-segmentation/blob/master/visualization/Screenshot%20(6625).png?raw=true)
